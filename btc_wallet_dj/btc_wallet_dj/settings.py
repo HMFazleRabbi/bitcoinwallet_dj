@@ -85,10 +85,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'bitcoinwallet',
-        'USER': 'fazle',
+        'USER': 'postgres',
         'PASSWORD': 'fazle123',
         'HOST': 'localhost',
-        'PORT': '',
+        'PORT': '5432',
     }
 }
 
