@@ -1,5 +1,3 @@
-![a4](https://github.com/HMFazleRabbi/bitcoinwallet_dj/assets/55730363/0deae3c3-5577-4360-b152-8b10492eb22f)
-![a3](https://github.com/HMFazleRabbi/bitcoinwallet_dj/assets/55730363/53f4a2cd-de03-41a4-bd6a-3e359feba811)
 # Django Bitcoin Wallet
 
 ## Introduction
