@@ -38,6 +38,7 @@ conda activate btc_wallet_dj
 python -m venv env
 source env/bin/activate # On Windows use env\Scripts\activate
 ```
+
 2. Install Django:
 pip install django>=2.2
 
@@ -60,6 +61,9 @@ pip install django>=2.2
 
 
 7. Visit `http://127.0.0.1:8000/` in your web browser to access the application.
+
+## Setting up the database
+We will be using the posgres sql library, which can be installed as [follows](https://www.digitalocean.com/community/tutorials/how-to-use-postgresql-with-your-django-application-on-ubuntu-20-04).
 
 ## Usage
 

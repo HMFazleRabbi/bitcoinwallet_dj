@@ -1,1 +1,5 @@
 env
+.trash
+btc_wallet_dj/btc_wallet_dj/__pycache__
+btc_wallet_dj/wallet/__pycache__
+btc_wallet_dj/wallet/migrations/
