@@ -81,3 +81,5 @@ This project is licensed under the [MIT License](LICENSE).
 ---
 
 Disclaimer: This application is for educational and demonstrative purposes only. Use it at your own risk. We are not responsible for any loss of funds or damages caused by the use of this application.
+
+## Sample Webpages
