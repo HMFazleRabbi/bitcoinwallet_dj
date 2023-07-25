@@ -1,7 +1,5 @@
 # Django Bitcoin Wallet
 
-![Bitcoin Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Bitcoin.svg/200px-Bitcoin.svg.png)
-
 ## Introduction
 
 Django Bitcoin Wallet is a simple web application that allows users to send and receive Bitcoin. It provides a user-friendly interface for managing Bitcoin addresses, checking account balance, and viewing transaction history.
@@ -14,8 +12,6 @@ The wallet interacts with the Bitcoin network using a Bitcoin node (or a third-p
 - Generation of unique Bitcoin addresses for each user.
 - Send Bitcoin to other addresses.
 - View transaction history and account balance.
-- Real-time notifications for incoming transactions.
-- Secure and user-friendly interface.
 
 ## Installation
 
@@ -25,8 +21,7 @@ The wallet interacts with the Bitcoin network using a Bitcoin node (or a third-p
 - Django (>=2.2)
 - Bitcoin node or access to a Bitcoin API service
 
-### Setup
-
+## Environment setup
 1. create an anaconda environment
 ```
 conda create -n btc_wallet_dj python=3.x
@@ -39,41 +34,33 @@ python -m venv env
 source env/bin/activate # On Windows use env\Scripts\activate
 ```
 
-2. Install Django:
-pip install django>=2.2
 
-1. Clone the repository:
+## Git setup
 
+4. Clone the repository:
+```
+git clone https://github.com/HMFazleRabbi/bitcoinwallet_dj.git
+cd django-bitcoin-wallet
+```
 
-2. Create a virtual environment (optional but recommended):
+5. Install dependencies:
 
-
-2. Create a virtual environment (optional but recommended):
-
-
-4. Configure the Bitcoin node or API:
-   - Open `settings.py` and set the appropriate configurations for your Bitcoin node or API service.
-
-5. Run migrations:
-
-
-6. Start the development server:
-
-
-7. Visit `http://127.0.0.1:8000/` in your web browser to access the application.
+```pip install -r requirements.txt```
 
 ## Setting up the database
-We will be using the posgres sql library, which can be installed as [follows](https://www.digitalocean.com/community/tutorials/how-to-use-postgresql-with-your-django-application-on-ubuntu-20-04).
+6. We will be using the posgres sql library, which can be installed as [follows](https://www.digitalocean.com/community/tutorials/how-to-use-postgresql-with-your-django-application-on-ubuntu-20-04).
 
-## Usage
 
-1. Register a new account or log in with your existing credentials.
-2. Upon successful login, you'll be presented with your Bitcoin address and account balance.
-3. To receive Bitcoin, share your Bitcoin address with others.
-4. To send Bitcoin, enter the recipient's address and the amount you want to send.
-5. Confirm the transaction details and authorize the transfer.
-6. Check your transaction history for a list of past transactions.
-7. Receive real-time notifications when someone sends Bitcoin to your address.
+## Django setup
+
+7. Run migrations:
+```python manage.py runserver```
+
+8. Start the development server:
+```python manage.py runserver```
+Visit `http://127.0.0.1:8000/` in your web browser to access the application.
+
+
 
 ## Security Considerations
 
